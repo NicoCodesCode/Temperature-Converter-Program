@@ -1,0 +1,84 @@
+:root {
+  --color1: #ffff82;
+  --color2: #f5f7dc;
+  --color3: #b5d99c;
+  --color4: #0f0326;
+  --color5: #e65f5c;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: var(--color3);
+}
+
+body {
+  border: 5px solid var(--color4);
+  border-radius: 15px;
+  max-width: 500px;
+  margin: 3rem auto;
+  padding: 20px;
+  background-color: var(--color2);
+  color: var(--color4);
+  box-shadow: 10px 10px rgba(15, 3, 38, 0.8);
+}
+
+h1 {
+  margin-top: 1rem;
+}
+
+.block {
+  display: block;
+}
+
+#instructions {
+  margin: 2rem auto;
+  font-size: 1.2rem;
+  color: var(--color5);
+}
+
+.centered,
+.conversion-type-radio {
+  text-align: center;
+}
+
+#temperature-input {
+  margin: 0 auto 1.5rem auto;
+  width: 90px;
+  height: 60px;
+  padding: 10px;
+  font-size: 1.5rem;
+  border: 3px solid var(--color4);
+  border-radius: 5px;
+}
+
+.conversion-type-radio {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+#convert-button {
+  margin: 2rem auto;
+  font-size: 1.2rem;
+  padding: 10px;
+  background-color: var(--color1);
+}
+
+#convert-button:hover {
+  background-color: #eeff82;
+  cursor: pointer;
+}
+
+#convert-button:active {
+  background-color: var(--color1);
+}
+
+#conversion {
+  font-size: 2rem;
+  padding-left: 25px;
+}
