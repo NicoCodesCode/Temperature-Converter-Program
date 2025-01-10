@@ -20,7 +20,8 @@ html {
 body {
   border: 5px solid var(--color4);
   border-radius: 15px;
-  max-width: 500px;
+  width: clamp(100px, 80vw, 450px);
+  height: auto;
   margin: 3rem auto;
   padding: 20px;
   background-color: var(--color2);
